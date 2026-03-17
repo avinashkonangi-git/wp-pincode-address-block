@@ -1,0 +1,74 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-indian-address-block {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+.indian-address-form {
+    max-width: 420px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.address-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.pincode {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.find-address {
+    padding: 10px 16px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.find-address:hover {
+    background: #005177;
+}
+
+.loader {
+    display: none;
+    margin-top: 15px;
+    border: 4px solid #eee;
+    border-top: 4px solid #0073aa;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 1s linear infinite;
+}
+
+.address-result {
+    margin-top: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

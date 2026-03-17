@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "name": "custom/indian-address",
+  "title": "Indian Address Finder",
+  "category": "widgets",
+  "icon": "location",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}
